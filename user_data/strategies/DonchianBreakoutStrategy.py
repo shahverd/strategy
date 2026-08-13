@@ -1,6 +1,5 @@
-from pandas import DataFrame
-
 from freqtrade.strategy import IStrategy
+from pandas import DataFrame
 
 
 class DonchianBreakoutStrategy(IStrategy):
